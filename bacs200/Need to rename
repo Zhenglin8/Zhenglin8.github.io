@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Travel</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="https://getbootstrap.com/docs/5.1/assets/img/favicons/apple-touch-icon.png"
+        sizes="180x180">
+    <link rel="icon" href="travel_logo.jpg" sizes="32x32" type="image/png">
+
+    <link rel="manifest" href="https://getbootstrap.com/docs/5.1/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="https://getbootstrap.com/docs/5.1/assets/img/favicons/safari-pinned-tab.svg"
+        color="#7952b3">
+    <link rel="icon" href="https://getbootstrap.com/docs/5.1/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#7952b3">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Travel Voyager</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="buy.html">Checkout</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="bd-placeholder-img" src="bali1.jpg" alt="bali">
+
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Bali, Indonesia</h1>
+                            <p>Tropical paradise with idyllic beaches, lively religious scene, never-ending adventure,
+                                and cordial people.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+
+                    <img class="bd-placeholder-img" src="bali2.webp" alt="bali">
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Adventures</h1>
+                            <p>Ubud Monkey Forest. Menjangan Island. Tegalalang Rice Terrace. Uluwatu Temple. and many
+                                more...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="bd-placeholder-img" src="bali3.jpg" alt="bali">
+
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>Travel Voyager</h1>
+                            <p>The go-to agency for tourists who seek to explore Bali.
+                            </p>
+                            <p>Reliable. Affordable. Adventurous. Excellence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <!-- Marketing messaging and featurettes
+  ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" src="$.JPG" alt="money">
+
+                    <h2>Affordable</h2>
+                    <p>3 days. 5 Locations. Hotel. Breakfast.</p>
+                    <p><a class="btn btn-secondary" href="pricing.html">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" src="$$.JPG" alt="money">
+
+                    <h2>Recommended</h2>
+                    <p>5 days. 7 locations. Hotel. Breakfast & Dinner.</p>
+                    <p><a class="btn btn-secondary" href="pricing.html">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" src="$$$.JPG" alt="money">
+
+                    <h2>Premium</h2>
+                    <p>7 days. 10 Locations. Hotel. All Meals. Photography.</p>
+                    <p><a class="btn btn-secondary" href="pricing.html">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading"> Tegalalang Rice Terrace</h2>
+                    <p class="lead">One of Bali’s most photogenic—and most-visited—destinations. The UNESCO World
+                        Heritage Site contains wide, undulating
+                        layers of rice paddies, kept alive by an ancient, sophisticated irrigation system and farmers
+                        who tend the terraces just
+                        as previous generations have done for millennia. You can explore this area freely.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" src="rice.webp" alt="rice">
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Ubud Monkey Forest</h2>
+                    <p class="lead">Explore a holy site with a 1000-plus band of long-tailed Balinese macaques in their
+                        natural habitat. As cantankerous as some of
+                        the monkeys can be—dangling jewelry, bags, and conspicuous food will invite aggressive sticky
+                        fingers—the primates are
+                        considered sacred by Balinese Hindus who come to pray in the complex's three ancient temples.
+                    </p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" src="monkey.webp" alt="monkey">
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Shopping at Sukawati Art Market</h2>
+                    <p class="lead">Shop an impressive array of handcrafted artworks for sale, from framed paintings of
+                        local farm life to large wooden
+                        sculptures of Hindu deities. Without the intimidating crowds, it’s an ideal place to flex your
+                        bargaining skills on
+                        vibrant patterned dresses and accessories, home goods, and tote bags for all tastes.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" src="sukawati.webp" alt="sukawati">
+                </div>
+
+                <hr class="featurette-divider">
+
+                <!-- /END THE FEATURETTES -->
+
+            </div><!-- /.container -->
+
+
+            <!-- FOOTER -->
+            <footer class="container">
+                <p class="float-end"><a href="#">Back to top</a></p>
+                <p>&copy; 2017–2021 Travel Voyager &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+                </p>
+            </footer>
+        </div>
+    </main>
+
+
+    <script src="https://getbootstrap.com/docs/5.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
