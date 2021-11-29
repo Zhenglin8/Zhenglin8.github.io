@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Web Development Trends</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark text-light">
+        <div class="container">
+            <a class="navbar-brand text-light" href="index.html">Social protocols</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="about US.html">Technology</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="info.html">Windsor school Info</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="counseling.html">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="activities.html">Economics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="grid.html">About Me</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="container-fluid p-5 bg-primary text-white text-center">
+        <a href="index.html" class="text-white">
+            <h1> Web Development</h1>
+        </a>
+      
+    </div>
+
+    <div class="container  p-5">
+        <h1>About US</h1>
+        <div class="row">
+
+
+            <div class="col-lg-6">
+                <div class="card bg-light text-dark m-5 ">
+                    <div class="card-header bg-primary text-light text-center">
+                        <h2>Social protocols</h2>
+                    </div>
+
+                    <div class="card-body p-5">
+                      Innovation and development have not stopped in the social
+                      and content fields that seem to have entered a mature period.
+                      On the contrary, with the rapid development of the Internet,
+                      the importance of content has become increasingly prominent.
+                      It is like water without a source. In 2018 was a hot year for 
+                      short videos. Tik Tok, the main short video social networking
+                      platform, reached 500 million monthly lives, and the content
+                      social e-commerce company Xiaohongshu exceeded 50 million 
+                      monthly lives. Social and content consumption have long been 
+                      integrated into our daily lives and socialized. And content
+                      marketing has become the mainstream marketing model for brands
+                      to reach users.
+
+                        <img src="https://prod-discovery.edx-cdn.org/media/course/image/0e575a39-da1e-4e33-bb3b-e96cc6ffc58e-8372a9a276c1.small.png" alt="School" style="width:300px;height:150px;">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card bg-light text-dark m-5">
+                    <div class="card-header bg-primary text-light text-center">
+                        <h2>Technology</h2>
+                    </div>
+
+                    <div class="card-body p-5">
+                      Today's technology is quickly evolving in order to accomplish
+                      quicker change and advancement, therefore speeding up the rate
+                      of change. However, not only do technological trends and new 
+                      technologies continue to advance, but further changes have 
+                      occurred this year as a result of the breakout of COVID-19, 
+                      making IT workers recognize that their position in the future 
+                      contactless world will not be static. 
+                        <img src="https://www.ashoka.org/sites/default/files/styles/4_10_width_desktop/public/thumbnails/images/cmschoolbelgium.jpg.webp?itok=VxpNea4Y" alt="School" style="width:400px;height:250px;">
+                    </div>
+
+                </div>
+            </div>
+
+        <div class="container  p-5">
+        <h1>More</h1>
+        <div class="row">
+
+
+            <div class="col-lg-6">
+                <div class="card bg-light text-dark m-5 ">
+                    <div class="card-header bg-primary text-light text-center">
+                        <h2>Education</h2>
+                    </div>
+
+                    <div class="card-body p-5">
+                      The rise of online education is more due to the continuous
+                      development of the Internet + era and people’s growing desire
+                      for knowledge. Traditional offline education is also indirectly 
+                      driven by the massive consumption of time, space and cost. This 
+                      has contributed to the development of online education, because 
+                      the most significant feature of online education is the freedom in
+                      time and the low restriction of space. Compared with offline education,
+                      the cost of output and acquisition of online education is relatively low,
+                      which is conducive to long-term develop.
+                      <img src="https://www.ashoka.org/sites/default/files/styles/4_10_width_desktop/public/thumbnails/images/cmschoolbelgium.jpg.webp?itok=VxpNea4Y" alt="School" style="width:400px;height:250px;">
+                    </div>
+
+                </div>
+            </div>
+            
+          <div class="col-lg-6">
+                <div class="card bg-light text-dark m-5 ">
+                    <div class="card-header bg-primary text-light text-center">
+                        <h2>Economics</h2>
+                    </div>
+
+                    <div class="card-body p-5">
+                      The bitcoin industry is rapidly expanding. The entire market 
+                      capitalization of all cryptocurrencies has now surpassed 2.5 trillion 
+                      dollars. There are more than 300 million encrypted users globally, 
+                      according to estimates. In this new paper, we'll discuss the most important 
+                      current developments in the world of encryption (2021). And some that might 
+                      survive until 2025 or beyond.
+                      <img src="https://www.ashoka.org/sites/default/files/styles/4_10_width_desktop/public/thumbnails/images/cmschoolbelgium.jpg.webp?itok=VxpNea4Y" alt="School" style="width:400px;height:250px;">
+                    </div>
+
+                </div>
+            </div>
+          
+           <div class="col-lg-6">
+                <div class="card bg-light text-dark m-5 ">
+                    <div class="card-header bg-primary text-light text-center">
+                        <h2>About me </h2>
+                    </div>
+
+                    <div class="card-body p-5">
+                I am
+                      <img src="https://www.ashoka.org/sites/default/files/styles/4_10_width_desktop/public/thumbnails/images/cmschoolbelgium.jpg.webp?itok=VxpNea4Y" alt="School" style="width:400px;height:250px;">
+                    </div>
+
+                </div>
+            </div>
+ 
+         
+            <div class="col-lg-6">
+                <div class="card bg-success text-light m-5 p-5">
+                    <h2>Learn More</h2>
+                    <p>
+                        <a href="https://www.Windsor School.com"
+                            class="btn btn-light text-success">Home page</a>
+                    </p>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
